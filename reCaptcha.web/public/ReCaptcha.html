@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Recaptcha | Testing</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+<form method="post" action="http://localhost:9000/api/ReCaptcha">
+    <!-- ReSharper disable once UnknownCssClass -->
+    <div class="g-recaptcha" data-sitekey="6LcO5C0UAAAAAAlDyrvDdMUhFkWVFI7B8szM_pVQ"></div>
+    <input type="text" name="response" placeholder="value" id="response"/>
+    <input type="submit" value="Send"/>
+</form>
+</body>
+</html>
